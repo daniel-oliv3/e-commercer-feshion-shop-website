@@ -5,12 +5,12 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Fashion Shop</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="./src/css/style.css">
 	<!-- font-awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootstrap css -->
-    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
-	<link rel="shortcut icon" href="img/favicon.ico"/>
+    <link rel = "stylesheet" href = "./src/bootstrap/css/bootstrap.min.css">
+	<link rel="shortcut icon" href="./src/img/favicon.ico"/>
 </head>
 <body>
 
@@ -18,9 +18,29 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
 	<div class="container">
 		<a href="index.html" class="navbar-brand">
-			<img src="img/shopping-bag-icon.png" alt="Icone Site">
+			<img src="./src/img/shopping-bag-icon.png" alt="Icone Site">
 			<span class="text-uppercase fw-lighter ms-2">Attire</span>
 		</a>
+
+		<div class="">
+			<button type="button" class="btn position-relative">
+				<i class="fa fa-shopping-cart"></i>
+				<span class="position-absolute top-0 start-100 badge bg-primary">5</span>
+			</button>
+
+			<button type="button" class="btn position-relative">
+				<i class="fa fa-heart"></i>
+				<span class="position-absolute top-0 start-100 badge bg-primary">2</span>
+			</button>
+
+			<button type="button" class="btn position-relative">
+				<i class="fa fa-search"></i>
+			</button>
+		</div>
+
+		<button class="navbar-toggler border-0" type="button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 	</div>
 </nav>
 
@@ -32,13 +52,13 @@
 
 
 	<!-- jquery -->
-    <script src = "js/jquery-3.6.0.js"></script>
+    <script src = "./src/js/jquery-3.6.0.js"></script>
     <!-- isotope js -->
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <!-- bootstrap js -->
-    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src = "./src/bootstrap/js/bootstrap.min.js"></script>
 	<!-- javascript js -->
-	<script src="js/script.js"></script>
+	<script src="./src/js/script.js"></script>
 </body>
 </html>
 
