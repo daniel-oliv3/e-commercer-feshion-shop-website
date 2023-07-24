@@ -17,6 +17,20 @@ body {
     background-color: var(--pink) !important;
 }
 
+.btn:not(.nav-btns button){
+    background-color: #fff;
+    color: rgb(85, 85, 85);
+    padding: 10px 28px;
+    border-radius: 25px;
+    border: 1px solid rgb(85, 85, 85);
+}
+
+.btn:not(.nav-btns button):hover{
+    background-color: var(--pink);
+    color: #fff;
+    border-color: var(--pink);
+}
+
 
 /* Navbar */
 .navbar {
@@ -37,6 +51,29 @@ body {
 
 .nav-item {
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+/* Header */
+#header {
+    background: url(../img/banner-img-1.jpg) top/cover no-repeat;
+}
+
+
+.carousel-inner h1 {
+    font-size: 60px;
+    font-family: var(--lg-font);
+}
+
+.carousel-item .btn {
+    border-color: #fff !important;
+}
+
+
+.carousel-item .btn:hover {
+    border-color: var(--pink) !important;
 }
 
 
