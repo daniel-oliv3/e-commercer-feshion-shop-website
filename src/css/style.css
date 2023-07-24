@@ -18,25 +18,48 @@ body {
 }
 
 
+/* Navbar */
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
 
-/* ======= Responsive/Responsividade ======= */
-@media (max-width: 991px){
 
-    html {
-        font-size: 55%;
+.navbar-brand span {
+    letter-spacing: 2px;
+    font-family: var(--lg-font);
+}
+
+
+.nav-link:hover {
+    color: var(--pink) !important;
+}
+
+
+.nav-item {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
+}
+
+
+
+
+
+
+
+
+
+/* Media queries/Responsividade */
+@media(min-width: 992px){
+    .nav-item {
+        border-bottom: none;
     }
-
 }
 
-@media (max-width: 768px){
 
 
-}
 
-@media (max-width: 450px){
 
-    html {
-        font-size: 50%;
-    }
 
-}
+
+
+
+
